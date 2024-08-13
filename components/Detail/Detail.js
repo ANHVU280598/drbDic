@@ -4,8 +4,9 @@ import ImgDispl from '../ImgDispl/ImgDispl'
 export default function Detail({ stage, sections }) {
 
     const prep_step = [
+        // SET UP NPU
         {
-            section: "NPU SET UP",
+            section: "NPU",
             steps: [
                 {
                     step: 1,
@@ -44,8 +45,9 @@ export default function Detail({ stage, sections }) {
                 }
             ]
         },
+        // SET UP MWS SWS
         {
-            section: "MWS - SWS SET UP",
+            section: "MWS - SWS",
             steps: [
                 {
                     step: 1,
@@ -77,6 +79,47 @@ export default function Detail({ stage, sections }) {
                     img_src: '/MWS/image_5.png'
                 }
             ]
+        },
+        // ROUTER
+        {
+            section: "ROUTER",
+            steps: [
+                {
+                    step: 1,
+                    detail: 'Plug in Router',
+                    img_src: '/ROUTER/image_1.png'
+                }
+                ,
+                {
+                    step: 2,
+                    detail: 'Wait for ROUTER is on -> use your lap -> Bomgar -> login -> warehouse -> group -> router',
+                    img_src: '/ROUTER/image_2.png'
+                }
+                ,
+                {
+                    step: 3,
+                    detail: 'Go to Web Browser -> 192.168.100.1. Login name: swadmin and pwd: router pwd',
+                    img_src: ''
+                }
+                ,
+                {
+                    step: 4,
+                    detail: 'Go To Device -> Setting -> Firmware and Settings -> Upload Firmware -> TZ - 270 folder (Note: the firmware ending file *.bin.sig',
+                    img_src: '/ROUTER/image_4.png'
+                }
+                ,
+                {
+                    step: 5,
+                    detail: 'Let it install by self, ignore any warning. When it done, it will restart it"s self',
+                    img_src: '/ROUTER/image_5.png'
+                }
+                ,
+                {
+                    step: 6,
+                    detail: 'Wait it back on and verify if we still see it on Bomgar -> Done',
+                    img_src: ''
+                }
+            ]
         }
     ]
 
@@ -97,9 +140,9 @@ export default function Detail({ stage, sections }) {
                                                     <div className='col-span-5 w-full text-md'>{inVal.detail}</div>
                                                 </div>
                                                 {inVal.img_src && <div className='flex w-full justify-center items-center'>
-                                                        <ImgDispl src={inVal.img_src} />
-                                                    </div>
-                                                    }
+                                                    <ImgDispl src={inVal.img_src} />
+                                                </div>
+                                                }
                                             </div>
                                         ))
                                     }
