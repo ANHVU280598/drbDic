@@ -1,10 +1,10 @@
-import Image from "next/image";
-import HomePage from "./components/HomePage/HomePage";
+import HomePage from "@/components/HomePage/HomePage";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <div className="flex h-full w-[430px]">
       <HomePage/>
-    </main>
+    </div>
   );
 }
