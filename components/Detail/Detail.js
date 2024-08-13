@@ -43,6 +43,40 @@ export default function Detail({ stage, sections }) {
                     img_src: '/NPU/image_6.png'
                 }
             ]
+        },
+        {
+            section: "MWS - SWS SET UP",
+            steps: [
+                {
+                    step: 1,
+                    detail: 'Turn on CPU, Fill out Set Up Computer base on Set Up Sheet -> Configure Computer',
+                    img_src: '/MWS/image_1.png'
+                }
+                ,
+                {
+                    step: 2,
+                    detail: 'Wait until it start up -> navigate to finish install folder -> run as admin "Install SW USB - Dont REBOOT"',
+                    img_src: '/MWS/image_2.png'
+                }
+                ,
+                {
+                    step: 3,
+                    detail: 'plugin SSD -> install correct SW version -> then run finallize',
+                    img_src: '/MWS/image_3.png'
+                }
+                ,
+                {
+                    step: 4,
+                    detail: 'Label',
+                    img_src: '/MWS/image_4.png'
+                }
+                ,
+                {
+                    step: 5,
+                    detail: 'For MWS, after set up -> IE ->sitewatch.cloud-> add to favourite -> drag icon to desktop',
+                    img_src: '/MWS/image_5.png'
+                }
+            ]
         }
     ]
 

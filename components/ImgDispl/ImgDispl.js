@@ -5,7 +5,7 @@ import React from 'react'
 export default function ImgDispl({src}) {
     
     return (
-        <div className={`relative h-[250px] w-[250px]`}>
+        <div className={`relative h-[400px] w-[400px]`}>
             <Image
                 className=''
                 alt='No Image Found'
