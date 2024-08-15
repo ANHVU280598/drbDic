@@ -229,33 +229,33 @@
     "steps": [
       {
         "step": 1,
-        "detail": "Follow the setup instructions for MWS and SWS.",
-        "img_src": ""
+        "detail": "Check for any issues with the case",
+        "img_src": "/BUILDINGRACK/image_1.png"
       },
       {
         "step": 2,
-        "detail": "Log in with the username 'NoPileUps' and password 'N0PileUp$'.",
-        "img_src": ""
+        "detail": "Install the four scasters. Open one screw from the bottom cable cap and save that screw by placing it into the empty hole at the top of the rack.",
+        "img_src": "/BUILDINGRACK/image_2.png"
       },
       {
         "step": 3,
-        "detail": "Change the computer description. Go to Control Panel -> System -> Change Settings -> System Properties.",
-        "img_src": "/NPU/image_3.png"
+        "detail": "Take out the front door, and grab all cable need to save your trip (HDMI, POWER, CAT6)",
+        "img_src": "/BUILDINGRACK/image_3.png"
       },
       {
         "step": 4,
         "detail": "Install Bomgar. Insert the USB, then run 'Bomgar Install-NPU.bat' as an administrator.",
-        "img_src": "/NPU/image_4.png"
+        "img_src": ""
       },
       {
         "step": 5,
         "detail": "Verify the setup. Turn on Bomgar on your laptop, go to My Jump Group, and search for the locator name.",
-        "img_src": "/NPU/image_5.png"
+        "img_src": ""
       },
       {
         "step": 6,
         "detail": "Edit the Jump Client as needed.",
-        "img_src": "/NPU/image_6.png"
+        "img_src": ""
       }
     ]
   }
