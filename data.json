@@ -153,48 +153,77 @@
     {
       "section": "OTT",
       "steps": [
-  {
-    "step": 1,
-    "detail": "Follow IMAGING step, but choosing the option for OTT setup. Make sure to use the correct Image - \"\\\\swimage\\\\Images\\\\Tools\\\\BootMedia\\\\USB_Images\\\\BIO\\\\Faytech N4200\". Enter 15 or 21 depending on the size of OTT when it prompts during the install process.",
-    "img_src": ""
-  },
-  {
-    "step": 2,
-    "detail": "Install the latest touchscreen controller firmware if setting up one of the following terminals.",
-    "img_src": ""
-  },
-  {
-    "step": 2.1,
-    "detail": "21.5\" REV B N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV B T04.",
-    "img_src": ""
-  },
-  {
-    "step": 2.2,
-    "detail": "21.5\" REV C N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV C T04.",
-    "img_src": ""
-  },
-  {
-    "step": 2.3,
-    "detail": "Open GalaxUpdate2.exe.",
-    "img_src": ""
-  },
-  {
-    "step": 2.4,
-    "detail": "REV B - PCAP80H84...Faytech...H84 in REV B folder, and the other one in the REV C folder.",
-    "img_src": ""
-  },
-  {
-    "step": 2.5,
-    "detail": "Start Firmware Update -> Done.",
-    "img_src": ""
-  },
+          {
+            "step": 1,
+            "detail": "Follow IMAGING step, but choosing the option for OTT setup. Make sure to use the correct Image - \"\\\\swimage\\\\Images\\\\Tools\\\\BootMedia\\\\USB_Images\\\\BIO\\\\Faytech N4200\". Enter 15 or 21 depending on the size of OTT when it prompts during the install process.",
+            "img_src": ""
+          },
+          {
+            "step": 2,
+            "detail": "Install the latest touchscreen controller firmware if setting up one of the following terminals.",
+            "img_src": ""
+          },
+          {
+            "step": 2.1,
+            "detail": "21.5\" REV B N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV B T04.",
+            "img_src": ""
+          },
+          {
+            "step": 2.2,
+            "detail": "21.5\" REV C N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV C T04.",
+            "img_src": ""
+          },
+          {
+            "step": 2.3,
+            "detail": "Open GalaxUpdate2.exe.",
+            "img_src": ""
+          },
+          {
+            "step": 2.4,
+            "detail": "REV B - PCAP80H84...Faytech...H84 in REV B folder, and the other one in the REV C folder.",
+            "img_src": ""
+          },
+          {
+            "step": 2.5,
+            "detail": "Start Firmware Update -> Done.",
+            "img_src": ""
+          },
+            {
+            "step": 3,
+            "detail": "Restart the OTT, and follow the step on Finalize folder which is show on the screen.",
+            "img_src": ""
+          }   
+        ]
+    },
     {
-    "step": 3,
-    "detail": "Restart the OTT, and follow the step on Finalize folder which is show on the screen.",
-    "img_src": ""
-  },
-        
-    ]
+      "section": "VEGA(LBR) CAMERA",
+      "steps": [
+        {
+          "step": 1,
+          "detail": "Wait for an update",
+          "img_src": ""
+        },
+        {
+          "step": 2,
+          "detail": "",
+          "img_src": ""
+        },
+        {
+          "step": 3,
+          "detail": "",
+          "img_src": ""
+        },
+        {
+          "step": 4,
+          "detail": "",
+          "img_src": ""
+        },
+        {
+          "step": 5,
+          "detail": "",
+          "img_src": ""
+        }
+      ]
     }
   ]
   
