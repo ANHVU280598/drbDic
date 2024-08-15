@@ -180,10 +180,10 @@ export default function Detail({ stage, sections }) {
                                 <>
                                     {
                                         val.steps.map((inVal, index) => (
-                                            <div className='flex flex-col w-full' key={inVal.detail}>
+                                            <div className='flex flex-col w-full mt-[30px]' key={inVal.detail}>
                                                 <div className='grid grid-cols-6 w-full'>
                                                     <div className='w-full font-bold'>Step {inVal.step}</div>
-                                                    <div className='col-span-5 w-full text-md'>{inVal.detail}</div>
+                                                    <div className='col-span-4 w-full text-md'>{inVal.detail}</div>
                                                 </div>
                                                 {inVal.img_src && <div className='flex w-full justify-center items-center'>
                                                     <ImgDispl src={inVal.img_src} />
