@@ -155,7 +155,7 @@
       "steps": [
   {
     "step": 1,
-    "detail": "Follow IMAGING step, but choosing the option for OTT setup. Make sure to use the correct Image - \"\\\\swimage\\Images\\Tools\\BootMedia\\USB_Images\\BIO\\Faytech N4200\". Enter 15 or 21 depending on the size of OTT when it prompts during the install process.",
+    "detail": "Follow IMAGING step, but choosing the option for OTT setup. Make sure to use the correct Image - \"\\\\swimage\\\\Images\\\\Tools\\\\BootMedia\\\\USB_Images\\\\BIO\\\\Faytech N4200\". Enter 15 or 21 depending on the size of OTT when it prompts during the install process.",
     "img_src": ""
   },
   {
@@ -165,12 +165,12 @@
   },
   {
     "step": 2.1,
-    "detail": "21.5\" REV B N4200 OTT and is located in N:\\Development\\HDI\\Driver\\OTT\\FT214200\\REV B T04.",
+    "detail": "21.5\" REV B N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV B T04.",
     "img_src": ""
   },
   {
     "step": 2.2,
-    "detail": "21.5\" REV C N4200 OTT and is located in N:\\Development\\HDI\\Driver\\OTT\\FT214200\\REV C T04.",
+    "detail": "21.5\" REV C N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV C T04.",
     "img_src": ""
   },
   {
