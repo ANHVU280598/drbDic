@@ -228,7 +228,7 @@
     },
     {
       "comment" : "----------------------------FOR STAGER----------------------------------"
-      "section": "NPU",
+      "section": "BUILDING RACK",
       "steps": [
         {
           "step": 1,
