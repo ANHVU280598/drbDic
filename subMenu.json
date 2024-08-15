@@ -1,7 +1,7 @@
 [
     {
       "stage": "PREP STEPS",
-      "sections": ["IMAGING", "ROUTER", "MWS - SWS", "NPU"]
+      "sections": ["IMAGING", "ROUTER", "MWS - SWS", "NPU", "OTT", "VEGA CAMERA"]
     },
     {
       "stage": "STAGER",
