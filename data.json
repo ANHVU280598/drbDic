@@ -270,7 +270,25 @@
       ,
       {
         "step": 8,
-        "detail": "----------- FOR NPU - without NPU please skip to step ....--------------------",
+        "detail": "----------- FOR SW, MWS --------------------",
+        "img_src": ""
+      }
+      ,
+      {
+        "step": 8.1,
+        "detail": "label the CAT 5 cables, and plug in the unlabeled ends to port 2 of  MWS and SWS",
+        "img_src": ""
+      }
+      ,
+      {
+        "step": 8.2,
+        "detail": "Plugin DB 9 connector to port 1 of SWS (if applicable)",
+        "img_src": ""
+      }
+      ,
+      {
+        "step": 8.2,
+        "detail": "Plugin in green keypad connector to db9 connector (if applicable)",
         "img_src": ""
       }
       
