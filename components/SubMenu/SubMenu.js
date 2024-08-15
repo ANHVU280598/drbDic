@@ -8,7 +8,7 @@ export default function SubMenu({ optionVal }) {
   const submenu = [
     {
       stage: 'PREP STEPS',
-      sections: ['MWS - SWS','NPU', 'ROUTER']
+      sections: ['IMAGING','ROUTER', 'MWS - SWS','NPU']
     },
     {
       stage: 'STAGER',
@@ -39,7 +39,7 @@ export default function SubMenu({ optionVal }) {
   
   return (
     <div className='w-full space-y-5'>
-      <div className='grid grid-cols-3 w-full mt-5 text-center'>
+      <div className='grid grid-cols-3 w-full text-center gap-y-5 mt-5'>
         {
           state_submenu.map((val, idx) => (
             <div className='flex items-center justify-center w-full text-xs cursor-pointer' key={val} onClick={() => selectSubOpt({ stage: optionVal.label, sections: val, idx:idx })}>
