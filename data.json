@@ -155,7 +155,7 @@
       "steps": [
         {
           "step": 1,
-          "detail": "Follow IMAGING step, but chosing the option for OTT setup. Make sure use correct Image - \\swimage\Images\Tools\BootMedia\USB_Images\BIO\Faytech N4200. Enter 15 or 21 depend on the size of OTT when it prompt during install process. ",
+          "detail": "Follow IMAGING step, but chosing the option for OTT setup. Make sure use correct Image - "\\swimage\Images\Tools\BootMedia\USB_Images\BIO\Faytech N4200". Enter 15 or 21 depend on the size of OTT when it prompt during install process. ",
           "img_src": ""
         },
         {
