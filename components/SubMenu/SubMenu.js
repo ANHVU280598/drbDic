@@ -5,28 +5,40 @@ import Detail from '../Detail/Detail'
 export default function SubMenu({ optionVal }) {
   const [selected, setSelected] = useState()
   const [currentSubIdx, setCurrentSubIdx] = useState()
-  const submenu = [
-    {
-      stage: 'PREP STEPS',
-      sections: ['IMAGING','ROUTER', 'MWS - SWS','NPU']
-    },
-    {
-      stage: 'STAGER',
-      sections: []
-    },
-    {
-      stage: 'TESTING',
-      sections: []
-    },
-    {
-      stage: 'PACKAGING',
-      sections: []
-    }
-  ]
+  const [submenu, setSubMenu] = useState()
+  // const submenu = [
+  //   {
+  //     stage: 'PREP STEPS',
+  //     sections: ['IMAGING','ROUTER', 'MWS - SWS','NPU']
+  //   },
+  //   {
+  //     stage: 'STAGER',
+  //     sections: []
+  //   },
+  //   {
+  //     stage: 'TESTING',
+  //     sections: []
+  //   },
+  //   {
+  //     stage: 'PACKAGING',
+  //     sections: []
+  //   }
+  // ]
+
+  useEffect(()=> {
+      async function fetchData() {
+        const res = await fetch('https://raw.githubusercontent.com/ANHVU280598/drbDic/main/subMenu.json')
+        const json = await res.json()
+        setSubMenu(json)   
+      }
+      fetchData()
+  },[])
 
   useEffect(() => {
     setSelected()
   }, [optionVal])
+
+  if (!submenu) return <>Loading.....</>
 
   const state_submenu = submenu.find(item => item.stage === optionVal.label).sections
   
@@ -35,7 +47,7 @@ export default function SubMenu({ optionVal }) {
     setCurrentSubIdx(e.idx)
   }
 
-  console.log(currentSubIdx);
+ 
   
   return (
     <div className='w-full space-y-5'>

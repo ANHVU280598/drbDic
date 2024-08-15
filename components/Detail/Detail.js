@@ -168,7 +168,6 @@ export default function Detail({ stage, sections }) {
     if (!prep_step) {
         return <div>Loading...</div>;
       }
-      console.log(prep_step);
       
     return (
         <div className='ml-5'>
