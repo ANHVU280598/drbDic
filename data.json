@@ -1,229 +1,262 @@
 [
-    {
-      "section": "MWS - SWS",
-      "steps": [
-        {
-          "step": 1,
-          "detail": "Turn on the CPU. Follow the Set Up Sheet to configure the computer.",
-          "img_src": "/MWS/image_1.png"
-        },
-        {
-          "step": 2,
-          "detail": "Wait for the computer to start up. Navigate to the 'Finish Install' folder and run 'Install SW USB' as admin (do not reboot).",
-          "img_src": "/MWS/image_2.png"
-        },
-        {
-          "step": 3,
-          "detail": "Plug in the SSD, install the correct SW version, and then run the finalize process.",
-          "img_src": "/MWS/image_3.png"
-        },
-        {
-          "step": 4,
-          "detail": "Label the device.",
-          "img_src": "/MWS/image_4.png"
-        },
-        {
-          "step": 5,
-          "detail": "For MWS, after setup, open Internet Explorer, go to sitewatch.cloud, add it to favorites, and drag the icon to the desktop.",
-          "img_src": "/MWS/image_5.png"
-        }
-      ]
-    },
-    {
-      "section": "ROUTER",
-      "steps": [
-        {
-          "step": 0,
-          "detail": "Need to double check with ADAM in change swadmin username and pwd",
-          "img_src": ""
-        },
-        {
-          "step": 1,
-          "detail": "Plug in the router. Network cable from Setup PC into X0, and WAN network in X1.",
-          "img_src": "/ROUTER/image_1.png"
-        },
-        {
-          "step": 2,
-          "detail": "Wait for the router to power on. Use your laptop, open Bomgar, log in, navigate to the 'Warehouse' group, and select the router.",
-          "img_src": "/ROUTER/image_2.png"
-        },
-        {
-          "step": 3,
-          "detail": "Open a web browser and go to 192.168.168.168. Use the login name 'admin' and the password 'password'. If it prompts, change the password to 'Password'.",
-          "img_src": ""
-        },
-        {
-          "step": 4,
-          "detail": "Navigate to Device > Settings > Firmware and Settings > Upload Firmware. Select the firmware file from the 'TZ-270' folder (Note: The firmware file should have a *.bin.sig extension).",
-          "img_src": "/ROUTER/image_4.png"
-        },
-        {
-          "step": 5,
-          "detail": "Let the firmware install automatically. Ignore any warnings. Once completed, the router will restart itself.",
-          "img_src": "/ROUTER/image_5.png"
-        },
-        {
-          "step": 6,
-          "detail": "Log back in to the browser 192.168.168.168. Navigate to Device > Settings > Firmware and Settings. Click Import/Export Configuration. Select Import Configuration. Navigate to the TZ270 folder. Choose the right version. Click Import. Ignore the 'Network Error'.",
-          "img_src": ""
-        },
-        {
-          "step": 7,
-          "detail": "Verify Configuration. Open a web browser and go to 192.168.100.1. Use the login name 'admin' and the password 'Password'.",
-          "img_src": ""
-        },
-        {
-          "step": 8,
-          "detail": "Navigate to Device > Settings > Administration, change Administrator Login Name to swadmin, and password is Router Password which is store in clientel",
-          "img_src": ""
-        },
-        {
-          "step": 9,
-          "detail": "Browse back to 192.168.100.1, and try to login with swadmin and pwd for double check -> Done",
-          "img_src": ""
-        }
-      ]
-    },
-    {
-      "section": "IMAGING",
-      "steps": [
-        {
-          "step": 1,
-          "detail": "Plug in the CPU and connect all necessary peripherals, such as the monitor, keyboard, and mouse.",
-          "img_src": "/IMAGING/image_1.png"
-        },
-        {
-          "step": 2,
-          "detail": "Power on the CPU. As the system starts, press the 'DEL' key on the keyboard to enter the BIOS setup utility.",
-          "img_src": ""
-        },
-        {
-          "step": 3,
-          "detail": "In the BIOS menu, navigate to the 'Boot' tab using the arrow keys. Set 'Boot Option #1' to the UEFI: Generic Flash Drive (or the name of your bootable device).",
-          "img_src": "/IMAGING/image_3.png"
-        },
-        {
-          "step": 4,
-          "detail": "Save the changes and exit the BIOS. The system will reboot automatically.",
-          "img_src": ""
-        },
-        {
-          "step": 5,
-          "detail": "Wait for the operating system installation to complete. The system will restart, and the 'Set Up Computer' window will appear.",
-          "img_src": "/IMAGING/image_5.png"
-        }
-      ]
-    }
-    ,
-    {
-      "section": "OTT",
-      "steps": [
-          {
-            "step": 1,
-            "detail": "Follow IMAGING step, but choosing the option for OTT setup. Make sure to use the correct Image - \"\\\\swimage\\\\Images\\\\Tools\\\\BootMedia\\\\USB_Images\\\\BIO\\\\Faytech N4200\". Enter 15 or 21 depending on the size of OTT when it prompts during the install process.",
-            "img_src": ""
-          },
-          {
-            "step": 2,
-            "detail": "Install the latest touchscreen controller firmware if setting up one of the following terminals.",
-            "img_src": ""
-          },
-          {
-            "step": 2.1,
-            "detail": "21.5\" REV B N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV B T04.",
-            "img_src": ""
-          },
-          {
-            "step": 2.2,
-            "detail": "21.5\" REV C N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV C T04.",
-            "img_src": ""
-          },
-          {
-            "step": 2.3,
-            "detail": "Open GalaxUpdate2.exe.",
-            "img_src": ""
-          },
-          {
-            "step": 2.4,
-            "detail": "REV B - PCAP80H84...Faytech...H84 in REV B folder, and the other one in the REV C folder.",
-            "img_src": ""
-          },
-          {
-            "step": 2.5,
-            "detail": "Start Firmware Update -> Done.",
-            "img_src": ""
-          },
-            {
-            "step": 3,
-            "detail": "Restart the OTT, and follow the step on Finalize folder which is show on the screen.",
-            "img_src": ""
-          }   
-        ]
-    },
-    {
-      "section": "VEGA(LBR) CAMERA",
-      "steps": [
-        {
-          "step": 1,
-          "detail": "Wait for an update",
-          "img_src": ""
-        },
-        {
-          "step": 2,
-          "detail": "",
-          "img_src": ""
-        },
-        {
-          "step": 3,
-          "detail": "",
-          "img_src": ""
-        },
-        {
-          "step": 4,
-          "detail": "",
-          "img_src": ""
-        },
-        {
-          "step": 5,
-          "detail": "",
-          "img_src": ""
-        }
-      ]
-    },
-    {
-      "section": "BUILDING RACK",
-      "steps": [
-        {
-          "step": 1,
-          "detail": "Follow the setup instructions for MWS and SWS.",
-          "img_src": ""
-        },
-        {
-          "step": 2,
-          "detail": "Log in with the username 'NoPileUps' and password 'N0PileUp$'.",
-          "img_src": ""
-        },
-        {
-          "step": 3,
-          "detail": "Change the computer description. Go to Control Panel -> System -> Change Settings -> System Properties.",
-          "img_src": "/NPU/image_3.png"
-        },
-        {
-          "step": 4,
-          "detail": "Install Bomgar. Insert the USB, then run 'Bomgar Install-NPU.bat' as an administrator.",
-          "img_src": "/NPU/image_4.png"
-        },
-        {
-          "step": 5,
-          "detail": "Verify the setup. Turn on Bomgar on your laptop, go to My Jump Group, and search for the locator name.",
-          "img_src": "/NPU/image_5.png"
-        },
-        {
-          "step": 6,
-          "detail": "Edit the Jump Client as needed.",
-          "img_src": "/NPU/image_6.png"
-        }
-      ]
-    },
-  ]
-  
+  {
+    "section": "NPU",
+    "steps": [
+      {
+        "step": 1,
+        "detail": "Follow the setup instructions for MWS and SWS.",
+        "img_src": ""
+      },
+      {
+        "step": 2,
+        "detail": "Log in with the username 'NoPileUps' and password 'N0PileUp$'.",
+        "img_src": ""
+      },
+      {
+        "step": 3,
+        "detail": "Change the computer description. Go to Control Panel -> System -> Change Settings -> System Properties.",
+        "img_src": "/NPU/image_3.png"
+      },
+      {
+        "step": 4,
+        "detail": "Install Bomgar. Insert the USB, then run 'Bomgar Install-NPU.bat' as an administrator.",
+        "img_src": "/NPU/image_4.png"
+      },
+      {
+        "step": 5,
+        "detail": "Verify the setup. Turn on Bomgar on your laptop, go to My Jump Group, and search for the locator name.",
+        "img_src": "/NPU/image_5.png"
+      },
+      {
+        "step": 6,
+        "detail": "Edit the Jump Client as needed.",
+        "img_src": "/NPU/image_6.png"
+      }
+    ]
+  },
+  {
+    "section": "MWS - SWS",
+    "steps": [
+      {
+        "step": 1,
+        "detail": "Turn on the CPU. Follow the Set Up Sheet to configure the computer.",
+        "img_src": "/MWS/image_1.png"
+      },
+      {
+        "step": 2,
+        "detail": "Wait for the computer to start up. Navigate to the 'Finish Install' folder and run 'Install SW USB' as admin (do not reboot).",
+        "img_src": "/MWS/image_2.png"
+      },
+      {
+        "step": 3,
+        "detail": "Plug in the SSD, install the correct SW version, and then run the finalize process.",
+        "img_src": "/MWS/image_3.png"
+      },
+      {
+        "step": 4,
+        "detail": "Label the device.",
+        "img_src": "/MWS/image_4.png"
+      },
+      {
+        "step": 5,
+        "detail": "For MWS, after setup, open Internet Explorer, go to sitewatch.cloud, add it to favorites, and drag the icon to the desktop.",
+        "img_src": "/MWS/image_5.png"
+      }
+    ]
+  },
+  {
+    "section": "ROUTER",
+    "steps": [
+      {
+        "step": 0,
+        "detail": "Need to double check with ADAM in change swadmin username and pwd",
+        "img_src": ""
+      },
+      {
+        "step": 1,
+        "detail": "Plug in the router. Network cable from Setup PC into X0, and WAN network in X1.",
+        "img_src": "/ROUTER/image_1.png"
+      },
+      {
+        "step": 2,
+        "detail": "Wait for the router to power on. Use your laptop, open Bomgar, log in, navigate to the 'Warehouse' group, and select the router.",
+        "img_src": "/ROUTER/image_2.png"
+      },
+      {
+        "step": 3,
+        "detail": "Open a web browser and go to 192.168.168.168. Use the login name 'admin' and the password 'password'. If it prompts, change the password to 'Password'.",
+        "img_src": ""
+      },
+      {
+        "step": 4,
+        "detail": "Navigate to Device > Settings > Firmware and Settings > Upload Firmware. Select the firmware file from the 'TZ-270' folder (Note: The firmware file should have a *.bin.sig extension).",
+        "img_src": "/ROUTER/image_4.png"
+      },
+      {
+        "step": 5,
+        "detail": "Let the firmware install automatically. Ignore any warnings. Once completed, the router will restart itself.",
+        "img_src": "/ROUTER/image_5.png"
+      },
+      {
+        "step": 6,
+        "detail": "Log back in to the browser 192.168.168.168. Navigate to Device > Settings > Firmware and Settings. Click Import/Export Configuration. Select Import Configuration. Navigate to the TZ270 folder. Choose the right version. Click Import. Ignore the 'Network Error'.",
+        "img_src": ""
+      },
+      {
+        "step": 7,
+        "detail": "Verify Configuration. Open a web browser and go to 192.168.100.1. Use the login name 'admin' and the password 'Password'.",
+        "img_src": ""
+      },
+      {
+        "step": 8,
+        "detail": "Navigate to Device > Settings > Administration, change Administrator Login Name to swadmin, and password is Router Password which is store in clientel",
+        "img_src": ""
+      },
+      {
+        "step": 9,
+        "detail": "Browse back to 192.168.100.1, and try to login with swadmin and pwd for double check -> Done",
+        "img_src": ""
+      }
+    ]
+  },
+  {
+    "section": "IMAGING",
+    "steps": [
+      {
+        "step": 1,
+        "detail": "Plug in the CPU and connect all necessary peripherals, such as the monitor, keyboard, and mouse.",
+        "img_src": "/IMAGING/image_1.png"
+      },
+      {
+        "step": 2,
+        "detail": "Power on the CPU. As the system starts, press the 'DEL' key on the keyboard to enter the BIOS setup utility.",
+        "img_src": ""
+      },
+      {
+        "step": 3,
+        "detail": "In the BIOS menu, navigate to the 'Boot' tab using the arrow keys. Set 'Boot Option #1' to the UEFI: Generic Flash Drive (or the name of your bootable device).",
+        "img_src": "/IMAGING/image_3.png"
+      },
+      {
+        "step": 4,
+        "detail": "Save the changes and exit the BIOS. The system will reboot automatically.",
+        "img_src": ""
+      },
+      {
+        "step": 5,
+        "detail": "Wait for the operating system installation to complete. The system will restart, and the 'Set Up Computer' window will appear.",
+        "img_src": "/IMAGING/image_5.png"
+      }
+    ]
+  },
+  {
+    "section": "OTT",
+    "steps": [
+      {
+        "step": 1,
+        "detail": "Follow IMAGING step, but choosing the option for OTT setup. Make sure to use the correct Image - \"\\\\swimage\\\\Images\\\\Tools\\\\BootMedia\\\\USB_Images\\\\BIO\\\\Faytech N4200\". Enter 15 or 21 depending on the size of OTT when it prompts during the install process.",
+        "img_src": ""
+      },
+      {
+        "step": 2,
+        "detail": "Install the latest touchscreen controller firmware if setting up one of the following terminals.",
+        "img_src": ""
+      },
+      {
+        "step": 2.1,
+        "detail": "21.5\" REV B N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV B T04.",
+        "img_src": ""
+      },
+      {
+        "step": 2.2,
+        "detail": "21.5\" REV C N4200 OTT and is located in N:\\\\Development\\\\HDI\\\\Driver\\\\OTT\\\\FT214200\\\\REV C T04.",
+        "img_src": ""
+      },
+      {
+        "step": 2.3,
+        "detail": "Open GalaxUpdate2.exe.",
+        "img_src": ""
+      },
+      {
+        "step": 2.4,
+        "detail": "REV B - PCAP80H84...Faytech...H84 in REV B folder, and the other one in the REV C folder.",
+        "img_src": ""
+      },
+      {
+        "step": 2.5,
+        "detail": "Start Firmware Update -> Done.",
+        "img_src": ""
+      },
+      {
+        "step": 3,
+        "detail": "Restart the OTT, and follow the step on Finalize folder which is show on the screen.",
+        "img_src": ""
+      }
+    ]
+  },
+  {
+    "section": "VEGA(LBR) CAMERA",
+    "steps": [
+      {
+        "step": 1,
+        "detail": "Wait for an update",
+        "img_src": ""
+      },
+      {
+        "step": 2,
+        "detail": "",
+        "img_src": ""
+      },
+      {
+        "step": 3,
+        "detail": "",
+        "img_src": ""
+      },
+      {
+        "step": 4,
+        "detail": "",
+        "img_src": ""
+      },
+      {
+        "step": 5,
+        "detail": "",
+        "img_src": ""
+      }
+    ]
+  },
+  {
+    "section": "BUILDING RACK",
+    "steps": [
+      {
+        "step": 1,
+        "detail": "Follow the setup instructions for MWS and SWS.",
+        "img_src": ""
+      },
+      {
+        "step": 2,
+        "detail": "Log in with the username 'NoPileUps' and password 'N0PileUp$'.",
+        "img_src": ""
+      },
+      {
+        "step": 3,
+        "detail": "Change the computer description. Go to Control Panel -> System -> Change Settings -> System Properties.",
+        "img_src": "/NPU/image_3.png"
+      },
+      {
+        "step": 4,
+        "detail": "Install Bomgar. Insert the USB, then run 'Bomgar Install-NPU.bat' as an administrator.",
+        "img_src": "/NPU/image_4.png"
+      },
+      {
+        "step": 5,
+        "detail": "Verify the setup. Turn on Bomgar on your laptop, go to My Jump Group, and search for the locator name.",
+        "img_src": "/NPU/image_5.png"
+      },
+      {
+        "step": 6,
+        "detail": "Edit the Jump Client as needed.",
+        "img_src": "/NPU/image_6.png"
+      }
+    ]
+  }
+]
