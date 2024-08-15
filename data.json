@@ -312,13 +312,44 @@
         "img_src": ""
       },
       {
-        "step": 10,
-        "detail": "--- FOR KVM---",
+        "step": 11,
+        "detail": "-NET GEAR PORT 24 SWITCH-",
         "img_src": ""
       },
       {
-        "step": 11,
-        "detail": "Plug all display and usb cables by order. 1-SWS, 2-MWS, 3-NPU, 4-TW or CP",
+        "step": 11.1,
+        "detail": "Mount 24 port switch in proper location (Bottom 11 and top 11)",
+        "img_src": ""
+      },
+      {
+        "step": 11.2,
+        "detail": "X0 -> port 1 Red. Server -> porst 3 Red, MWS -> port 5 Red, WAP -> port 13 Green, X3 -> port 17 Blue, NPU -> port 18 Blue, TW -> port 19 Blue (if empty), Carpics -> port 19(if empty) or port 21",
+        "img_src": ""
+      },
+      {
+        "step": 12,
+        "detail": "-NPU BVTECH SWITCH (if applicable)-",
+        "img_src": ""
+      },
+      {
+        "step": 12.1,
+        "detail": "Velcro on the top-right of 24 port switch. Plug in CAT 5 labeled NPU port 2. Label 1 ",
+        "img_src": ""
+      }
+      ,
+      {
+        "step": 13,
+        "detail": "PLUG ALL POWERS CORD'S COMPONENTS TO BATTERY BACKUP",
+        "img_src": ""
+      },
+      {
+        "step": 13.1,
+        "detail": "Follow battery backup diagram below",
+        "img_src": ""
+      },
+      {
+        "step": 14,
+        "detail": "--OVERALL CABLE DIAGRAM--",
         "img_src": ""
       }
     ]
