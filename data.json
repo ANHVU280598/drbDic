@@ -68,6 +68,11 @@
       "section": "ROUTER",
       "steps": [
         {
+          "step": 0,
+          "detail": "Need to double check with ADAM in change swadmin username and pwd",
+          "img_src": "/ROUTER/image_1.png"
+        },
+        {
           "step": 1,
           "detail": "Plug in the router. Network cable from Setup PC into X0, and WAN network in X1.",
           "img_src": "/ROUTER/image_1.png"
