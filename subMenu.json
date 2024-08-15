@@ -1,0 +1,19 @@
+[
+    {
+      "stage": "PREP STEPS",
+      "sections": ["IMAGING", "ROUTER", "MWS - SWS", "NPU"]
+    },
+    {
+      "stage": "STAGER",
+      "sections": []
+    },
+    {
+      "stage": "TESTING",
+      "sections": []
+    },
+    {
+      "stage": "PACKAGING",
+      "sections": []
+    }
+  ]
+  
