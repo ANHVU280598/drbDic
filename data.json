@@ -311,7 +311,16 @@
         "detail": "Plug all display and usb cables by order. 1-SWS, 2-MWS, 3-NPU, 4-TW or CP",
         "img_src": ""
       },
-      
+      {
+        "step": 10,
+        "detail": "--- FOR KVM---",
+        "img_src": ""
+      },
+      {
+        "step": 11,
+        "detail": "Plug all display and usb cables by order. 1-SWS, 2-MWS, 3-NPU, 4-TW or CP",
+        "img_src": ""
+      }
     ]
   }
 ]
