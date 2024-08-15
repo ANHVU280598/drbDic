@@ -225,6 +225,42 @@
           "img_src": ""
         }
       ]
-    }
+    },
+    {
+      "comment" : "----------------------------FOR STAGER----------------------------------"
+      "section": "NPU",
+      "steps": [
+        {
+          "step": 1,
+          "detail": "Follow the setup instructions for MWS and SWS.",
+          "img_src": ""
+        },
+        {
+          "step": 2,
+          "detail": "Log in with the username 'NoPileUps' and password 'N0PileUp$'.",
+          "img_src": ""
+        },
+        {
+          "step": 3,
+          "detail": "Change the computer description. Go to Control Panel -> System -> Change Settings -> System Properties.",
+          "img_src": "/NPU/image_3.png"
+        },
+        {
+          "step": 4,
+          "detail": "Install Bomgar. Insert the USB, then run 'Bomgar Install-NPU.bat' as an administrator.",
+          "img_src": "/NPU/image_4.png"
+        },
+        {
+          "step": 5,
+          "detail": "Verify the setup. Turn on Bomgar on your laptop, go to My Jump Group, and search for the locator name.",
+          "img_src": "/NPU/image_5.png"
+        },
+        {
+          "step": 6,
+          "detail": "Edit the Jump Client as needed.",
+          "img_src": "/NPU/image_6.png"
+        }
+      ]
+    },
   ]
   
