@@ -109,7 +109,12 @@
         },
         {
           "step": 8,
-          "detail": "Navigate to Device.",
+          "detail": "Navigate to Device > Settings > Administration, change Administrator Login Name to swadmin, and password is Router Password which is store in clientel",
+          "img_src": ""
+        },
+        {
+          "step": 9,
+          "detail": "Browse back to 192.168.100.1, and try to login with swadmin and pwd for double check -> Done",
           "img_src": ""
         }
       ]
