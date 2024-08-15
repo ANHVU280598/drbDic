@@ -172,7 +172,7 @@ export default function Detail({ stage, sections }) {
     return (
         <div className='ml-5'>
             {
-                (stage === "PREP STEPS") && <>{
+                (stage) && <>{
                     prep_step.map((val, idx) => (
                         <div key={val.section} className=''>
                             {
