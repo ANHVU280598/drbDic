@@ -5,7 +5,7 @@
     },
     {
       "stage": "STAGER",
-      "sections": [BUILDING RACK]
+      "sections": ["BUILDING RACK"]
     },
     {
       "stage": "TESTING",
