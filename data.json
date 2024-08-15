@@ -239,24 +239,41 @@
       },
       {
         "step": 3,
-        "detail": "Take out the front door, and grab all cable need to save your trip (HDMI, POWER, CAT6)",
+        "detail": "Take out the front door, and grab all cable need to save your trip (HDMI, POWER, USB, CAT5...)",
         "img_src": "/BUILDINGRACK/image_3.png"
       },
       {
         "step": 4,
-        "detail": "Install Bomgar. Insert the USB, then run 'Bomgar Install-NPU.bat' as an administrator.",
-        "img_src": ""
+        "detail": "Velcro Battery backup in the center of rack, lined up cable entrance.",
+        "img_src": "/BUILDINGRACK/image_4.png"
       },
       {
         "step": 5,
-        "detail": "Verify the setup. Turn on Bomgar on your laptop, go to My Jump Group, and search for the locator name.",
-        "img_src": ""
+        "detail": "Build from the bottom to the top, with each component having its specific location on the rack as shown in the diagram below",
+        "img_src": "/BUILDINGRACK/image_5.png"
       },
       {
         "step": 6,
-        "detail": "Edit the Jump Client as needed.",
+        "detail": "Label all CAT 5, and Power cable base on each component. Ex: NPU -> label NPU on cat 5",
+        "img_src": ""
+      },
+      {
+        "step": 7,
+        "detail": "Plug in CAT 5 cable to port 2. The one next to by USB slot. Plug in USB and Display cable in proper location, make sure to cut off any tags. IF we have NPU please see the note Below.",
+        "img_src": ""
+      },
+      {
+        "step": 7.1,
+        "detail": "For the system with an NPU, label the CAT 5 cables with camera ports 1 and 2, and plug in the unlabeled ends. Connect the USB-to-Ethernet adapter above the USB cable",
         "img_src": ""
       }
+      ,
+      {
+        "step": 8,
+        "detail": "Plugin the Power Cable to Battery backup follow by the diagram below",
+        "img_src": ""
+      }
+      
     ]
   }
 ]
