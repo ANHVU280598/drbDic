@@ -187,9 +187,14 @@
     "step": 2.5,
     "detail": "Start Firmware Update -> Done.",
     "img_src": ""
-  }
-]
-
+  },
+    {
+    "step": 3,
+    "detail": "Restart the OTT, and follow the step on Finalize folder which is show on the screen.",
+    "img_src": ""
+  },
+        
+    ]
     }
   ]
   
