@@ -254,23 +254,23 @@
       },
       {
         "step": 6,
-        "detail": "Label all CAT 5, and Power cable base on each component. Ex: NPU -> label NPU on cat 5",
+        "detail": "Label all CAT 5, and Power cable base on each component. Ex: NPU -> label NPU on cat 5. Below it the diagram for Power cable plug in to Battery backup",
         "img_src": ""
       },
       {
         "step": 7,
-        "detail": "Plug in CAT 5 cable to port 2. The one next to by USB slot. Plug in USB and Display cable in proper location, make sure to cut off any tags. IF we have NPU please see the note Below.",
+        "detail": "----------- FOR NPU - without NPU please skip to step ....--------------------",
         "img_src": ""
       },
       {
         "step": 7.1,
-        "detail": "For the system with an NPU, label the CAT 5 cables with camera ports 1 and 2, and plug in the unlabeled ends. Connect the USB-to-Ethernet adapter above the USB cable",
+        "detail": "label the CAT 5 cables with camera ports 1 and 2, and plug in the unlabeled ends. Connect the USB-to-Ethernet adapter above the USB cable",
         "img_src": ""
       }
       ,
       {
         "step": 8,
-        "detail": "Plugin the Power Cable to Battery backup follow by the diagram below",
+        "detail": "----------- FOR NPU - without NPU please skip to step ....--------------------",
         "img_src": ""
       }
       
