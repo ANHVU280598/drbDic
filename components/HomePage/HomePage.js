@@ -23,14 +23,13 @@ export default function HomePage() {
             label: 'PACKAGING'
         }
     ];
-    
+
     return (
-        <div className='w-full'>
-            <Select placeholder='Please select options' className='' style={{width: '200px'}} options={options} onChange={(values) => setValues(values)} />
-               {
-                (values) &&  <SubMenu optionVal={values[0]}/>
-               }
-              
+        <div className='flex flex-col justify-center items-center w-full mt-5 bg-gradient-to-t from-slate-500/30 to-transparent'>
+            <Select placeholder='Please select options' autoFocus={false}  className='' style={{ width: '200px' }} options={options} onChange={(values) => setValues(values)} />
+            {
+                (values) && <SubMenu optionVal={values[0]} />
+            }             
         </div>
     )
 }
