@@ -16,7 +16,7 @@ export default function HomePage() {
         },
         {
             value: 3,
-            label: 'TESTING'
+            label: 'TESTING-FINAL SET UP'
         },
         {
             value: 4,
@@ -26,7 +26,7 @@ export default function HomePage() {
 
     return (
         <div className='flex flex-col justify-center items-center w-full mt-5 bg-gradient-to-t from-slate-500/30 to-transparent'>
-            <Select placeholder='Please select options' autoFocus={false}  className='' style={{ width: '200px' }} options={options} onChange={(values) => setValues(values)} />
+            <Select placeholder='Please select options' autoFocus={false}  className='' style={{ width: '300px' }} options={options} onChange={(values) => setValues(values)} />
             {
                 (values) && <SubMenu optionVal={values[0]} />
             }             

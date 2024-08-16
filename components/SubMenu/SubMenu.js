@@ -40,6 +40,8 @@ export default function SubMenu({ optionVal }) {
 
   if (!submenu) return <>Loading.....</>
 
+  console.log(submenu);
+  
   const state_submenu = submenu.find(item => item.stage === optionVal.label).sections
   
   const selectSubOpt = (e) => {
