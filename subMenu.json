@@ -9,7 +9,7 @@
     },
     {
       "stage": "TESTING-FINAL SET UP",
-      "sections": []
+      "sections": ["SERVER", ""]
     },
     {
       "stage": "PACKAGING",

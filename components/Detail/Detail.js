@@ -84,43 +84,61 @@ export default function Detail({ stage, sections }) {
                 "/BUILDINGRACK/BUILDING_RACK_5.jpg",
                 "/BUILDINGRACK/BUILDING_RACK_6.jpg",
             ]
+        },
+        // SERVER
+        {
+            section: "SERVER",
+            img_srcs: [
+                "/SERVER/SERVER-1.jpg",
+                "/SERVER/SERVER-2.jpg",
+                "/SERVER/SERVER-3.jpg",
+                "/SERVER/SERVER-4.jpg",
+            ]
+        },
+        // MWS_LUBEBAY
+        {
+            section: "MWS1 - LUBEBAY",
+            img_srcs: [
+                "/MWS1_LUBEBAY/MWS1_LUBEBAY_1.jpg",
+                "/MWS1_LUBEBAY/MWS1_LUBEBAY_2.jpg",
+                "/MWS1_LUBEBAY/MWS1_LUBEBAY_3.jpg",
+                "/MWS1_LUBEBAY/MWS1_LUBEBAY_4.jpg",
+                "/MWS1_LUBEBAY/MWS1_LUBEBAY_5.jpg",
+                "/MWS1_LUBEBAY/MWS1_LUBEBAY_6.jpg",
+            ]
+        },
+        // SAL1-GREETER1-CASHIER1-POSSIFLEX-CASHWASH1
+        {
+            section: "sal1-greeter1-cashier1-wash1-OTT",
+            img_srcs: [
+                "/sal1-greeter1-cashier1-wash1-OTT/sal1_1.jpg",
+                "/sal1-greeter1-cashier1-wash1-OTT/sal1_2.jpg",
+            ]
+        },
+        // KPT
+        {
+            section: "KPT",
+            img_srcs: [
+                "/KPT/KPT_1.jpg",
+
+            ]
+        },
+        // TTT's - WAPs
+        {
+            section: "TTT-WAP",
+            img_srcs: [
+                "/TTT-WAP/TTT-WAP-1.jpg",
+                "/TTT-WAP/TTT-WAP-2.jpg"
+
+            ]
         }
+
     ]
 
-    // if (!prep_step) {
-    //     return <div>Loading...</div>;
-    // }
+
 
     return (
         <div className='overflow-x-hidden'>
-            {/* {
-                (stage) && <>{
-                    prep_step.map((val, idx) => (
-                        <div key={val.section} className=''>
-                            {
-                                (val.section == sections) &&
-                                <>
-                                    {
-                                        val.steps.map((inVal, index) => (
-                                            <div className='flex flex-col w-full mt-[30px]' key={inVal.detail}>
-                                                <div className='grid grid-cols-6 w-full'>
-                                                    <div className='w-full font-bold'>Step {inVal.step}</div>
-                                                    <div className='col-span-4 w-full text-md'>{inVal.detail}</div>
-                                                </div>
-                                                {inVal.img_src && <div className='flex w-full justify-center items-center'>
-                                                    <ImgDispl src={inVal.img_src} />
-                                                </div>
-                                                }
-                                            </div>
-                                        ))
-                                    }
-                                </>
-                            }
-                        </div>
-                    ))
-                }
-                </>
-            } */}
             {
                 (stage) && <>{
                     prep_step.map((val, idx) => (
