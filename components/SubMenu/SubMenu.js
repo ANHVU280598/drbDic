@@ -17,7 +17,7 @@ export default function SubMenu({ optionVal }) {
     },
     {
       stage: 'TESTING-FINAL SET UP',
-      sections: ["SERVER", "MWS1 - LUBEBAY", "sal1-greeter1-cashier1-wash1-OTT", "KPT", "TTT-WAP"]
+      sections: ["SERVER", "MWS1 - LUBEBAY", "sal1-greeter1-cashier1-wash1-OTT", "KPT", "TTT-WAP", "CARPIC-OTT", "VEGA CAMERA"]
     },
     {
       stage: 'PACKAGING',

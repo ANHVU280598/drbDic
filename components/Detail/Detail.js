@@ -3,18 +3,6 @@ import React, { useEffect, useState } from 'react'
 import ImgDispl from '../ImgDispl/ImgDispl'
 
 export default function Detail({ stage, sections }) {
-    // const [prep_step, setData] = useState()
-
-    // useEffect(() => {
-    //     console.log('work');
-
-    //     async function fetchData() {
-    //         const res = await fetch('https://raw.githubusercontent.com/ANHVU280598/drbDic/main/data.json')
-    //         const json = await res.json();
-    //         setData(json);
-    //     }
-    //     fetchData()
-    // }, [])
 
     const prep_step = [
         // SET UP OTT
@@ -129,7 +117,19 @@ export default function Detail({ stage, sections }) {
             img_srcs: [
                 "/TTT-WAP/TTT-WAP-1.jpg",
                 "/TTT-WAP/TTT-WAP-2.jpg"
-
+            ]
+        },
+        ,
+        // VEGA - CAMERA
+        {
+            section: "VEGA CAMERA",
+            img_srcs: [
+                "/VEGA_CAMERA/SA6223_1.jpg",
+                "/VEGA_CAMERA/SA6223_2.jpg",
+                "/VEGA_CAMERA/SA6223_3.jpg",
+                "/VEGA_CAMERA/SA6223_4.jpg",
+                "/VEGA_CAMERA/SA6223_5.jpg",
+                "/VEGA_CAMERA/SA6223_6.jpg"
             ]
         }
 
